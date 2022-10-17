@@ -13,7 +13,7 @@ let basket = [];
 function addItem(){
     basket.push('bananas');
         for(let i = 0; i < basket.length; i++){
-            if (basket[i] === basket.push){
+            if (basket.indexOf(basket.push) === basket.push){
             return true;
             }
             else{
