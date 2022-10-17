@@ -10,7 +10,7 @@ let basket = [];
 //add the new item to the global array basket.
 //return true indicating the item was added
 
-function addItem(item){
+function addItem(){
     basket.push(item);
     if(item === basket.push){
         return true;
