@@ -15,7 +15,7 @@ let newItem = 'bananas'
 function addItem(){
     basket.push();
         for(let i = 0; i < basket.length; i++){
-            if (basket[i] === ()){
+            if (basket[i] > 0){
             return true;
             }
             else{
