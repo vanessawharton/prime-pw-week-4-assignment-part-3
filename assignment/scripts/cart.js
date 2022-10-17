@@ -38,5 +38,5 @@ function listItems(){
 function empty(){
     basket = [];
 }
-//add this function!!!!!
+empty();
 console.log(basket);
