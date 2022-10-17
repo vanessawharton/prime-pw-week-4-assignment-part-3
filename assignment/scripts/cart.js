@@ -11,7 +11,7 @@ let basket = [];
 //return true indicating the item was added
 
 function addItem(newItem){
-    basket.push(${newItem});
+    basket.push(${newItem}));
         if (basket.indexOf(${newItem}) >= 0){
         return true;
         }
