@@ -27,8 +27,9 @@ console.log('Adding items to basket', basket);
 //console.log each individual item on a new line
 
 function listItems(){
-    for (i in basket){
-        console.log(basket[1]);
+    for (i = 0; i < basket.length; i++){
+        console.log(basket[0]);
+    return basket[i];
     }
 }
 
