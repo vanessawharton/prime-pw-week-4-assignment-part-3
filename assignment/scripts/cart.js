@@ -11,13 +11,16 @@ let basket = [];
 //return true indicating the item was added
 
 function addItem(newItem){
-    basket.push(${newItem}));
+    for (let i = 0; i < basket.length; i++) {
+	const element = basket[i];
+	basket.push(${newItem});	
         if (basket.indexOf(${newItem}) >= 0){
         return true;
         }
         else{
         return false;
         }
+    }
 }
 
 console.log('Adding items to basket:', addItem('bananas'));
