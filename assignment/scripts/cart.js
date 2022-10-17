@@ -10,21 +10,18 @@ let basket = [];
 //add the new item to the global array basket.
 //return true indicating the item was added
 
-let newcartItem = 'bananas'
-
-function addItem(newcartItem){
+function addItem(){
+    let newcartItem = [];
     basket.push(newcartItem);
-    return newcartItem;
+        if (basket.indexOf(newcartItem) >= 0){
+        return true;
+        }
+        else{
+        return false;
+        }
 }
 
-//if (basket.indexOf(newcartItem) >= 0){
-//    return true;
-//    }
-//    else{
-//    return false;
-//    }
-
-console.log('Adding items to basket:', addItem());
+console.log('Adding items to basket:', addItem('bananas'));
 console.log(`Basket is ${basket}`);
 console.log('Adding apples (expect true)', addItem('apples'));
 console.log(`Basket is now ${basket}`);
