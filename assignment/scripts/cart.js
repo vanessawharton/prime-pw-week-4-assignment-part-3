@@ -11,7 +11,6 @@ let basket = [];
 //return true indicating the item was added
 
 function addItem(){
-    console.log('Adding items to basket');
     basket.push('item1');
     basket.push('item2');
     basket.push('item3');
@@ -21,7 +20,7 @@ function addItem(){
 
 addItem();
 console.log(addItem);
-console.log(basket);
+console.log('Adding items to basket', basket);
 
 //Create a function called listItems. It should:
 //loop over the items in the basket array
