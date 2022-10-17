@@ -10,7 +10,7 @@ let basket = [];
 //add the new item to the global array basket.
 //return true indicating the item was added
 
-let newcartItem = "bananas"
+let newcartItem = 'bananas'
 
 function addItem(newcartItem){
     basket.push(newcartItem);
