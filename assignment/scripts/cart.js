@@ -32,6 +32,9 @@ function listItems(){
     }
 }
 
+listItems();
+console.log('Listing items in basket', basket[1])
+
 //Create a function called empty. It should:
 //reset the basket to an empty array
 
