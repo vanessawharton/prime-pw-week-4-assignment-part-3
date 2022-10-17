@@ -28,8 +28,8 @@ console.log('Adding items to basket', basket);
 
 function listItems(){
     for (i = 0; i < basket.length; i++){
-        console.log(basket[0]);
-    return basket[i];
+        console.log(basket[i]);
+    return basket;
     }
 }
 
