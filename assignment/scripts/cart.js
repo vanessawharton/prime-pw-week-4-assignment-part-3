@@ -11,13 +11,15 @@ let basket = [];
 //return true indicating the item was added
 
 function addItem(){
-    basket.push('newitem');
-    if('newitem' === basket.push){
-        return true;
-    }
-    else{
-        return false;
-    }
+    basket.push('item');
+        for(let i = 0; i < basket.length; i++){
+            if (basket[i] === 'item'){
+            return true;
+            }
+            else{
+            return false;
+            }
+        }
 }
 
 console.log('Adding items to basket:', addItem());
