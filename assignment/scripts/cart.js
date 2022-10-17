@@ -26,7 +26,6 @@ console.log('Adding items to basket:', addItem());
 
 function listItems(){
     for (i = 0; i < basket.length; i++){
-        console.log(basket[i]);
     return basket;
     }
 }
