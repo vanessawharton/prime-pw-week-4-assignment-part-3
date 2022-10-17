@@ -14,13 +14,11 @@ let newcartItem = 'bananas'
 
 function addItem(newcartItem){
     basket.push(newcartItem);
-        for(let i = 0; i < basket.length; i++){
-            if (basket.indexOf(newcartItem) === basket.push){
-            return true;
-            }
-            else{
-            return false;
-            }
+        if (basket.indexOf(newcartItem) >= 0){
+        return true;
+        }
+        else{
+        return false;
         }
 }
 
