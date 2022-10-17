@@ -13,7 +13,7 @@ let basket = [];
 function addItem(newItem){
     for (let i = 0; i < basket.length; i++) {
 	const element = basket[i];
-	basket.push(${newItem});	
+	basket.push(${newItem})));	
         if ((basket.indexOf(${newItem})) >= 0){
         return true;
         }
