@@ -11,8 +11,8 @@ let basket = [];
 //return true indicating the item was added
 
 function addItem(){
-    basket.push(item);
-    if(item === basket.push){
+    basket.push('newitem');
+    if('newitem' === basket.push){
         return true;
     }
     else{
