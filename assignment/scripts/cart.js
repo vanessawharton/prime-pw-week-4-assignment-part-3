@@ -11,6 +11,7 @@ let basket = [];
 //return true indicating the item was added
 
 function addItem(){
+    console.log('Adding items to basket');
     basket.push('item1');
     basket.push('item2');
     basket.push('item3');
@@ -28,7 +29,7 @@ console.log(basket);
 
 function listItems(){
     for (i in basket){
-        console.log(basket[1]);
+        console.log('Listing items in basket', basket[1]);
     }
 }
 
@@ -39,4 +40,4 @@ function empty(){
     basket = [];
 }
 empty();
-console.log(basket);
+console.log('Emptied basket', basket);
