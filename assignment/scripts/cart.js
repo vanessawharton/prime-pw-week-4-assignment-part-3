@@ -14,13 +14,15 @@ let newcartItem = 'bananas'
 
 function addItem(newcartItem){
     basket.push(newcartItem);
-        if (basket.indexOf(newcartItem) >= 0){
-        return true;
-        }
-        else{
-        return false;
-        }
+    return newcartItem;
 }
+
+//if (basket.indexOf(newcartItem) >= 0){
+//    return true;
+//    }
+//    else{
+//    return false;
+//    }
 
 console.log('Adding items to basket:', addItem());
 console.log(`Basket is ${basket}`);
