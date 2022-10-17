@@ -18,9 +18,7 @@ function addItem(){
     return true;
 }
 
-addItem();
-console.log(addItem);
-console.log('Adding items to basket', basket);
+console.log('Adding items to basket:', addItem());
 
 //Create a function called listItems. It should:
 //loop over the items in the basket array
@@ -33,8 +31,7 @@ function listItems(){
     }
 }
 
-listItems();
-console.log('Listing items in basket', basket);
+console.log('Listing items in basket:', listItems());
 
 //Create a function called empty. It should:
 //reset the basket to an empty array
