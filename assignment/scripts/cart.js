@@ -19,6 +19,9 @@ function addItem(){
 }
 
 console.log('Adding items to basket:', addItem());
+console.log(`Basket is ${basket}`);
+console.log('Adding apples (expect true)', addItem('apples'));
+console.log(`Basket is now ${basket}`);
 
 //Create a function called listItems. It should:
 //loop over the items in the basket array
