@@ -11,7 +11,7 @@ let basket = [];
 //return true indicating the item was added
 
 function addItem(item){
-    basket.push('item1');
+    basket.push(item);
     return true;
 }
 
