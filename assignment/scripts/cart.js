@@ -12,7 +12,12 @@ let basket = [];
 
 function addItem(item){
     basket.push(item);
-    return true;
+    if(item === basket.push){
+        return true;
+    }
+    else{
+        return false;
+    }
 }
 
 console.log('Adding items to basket:', addItem());
