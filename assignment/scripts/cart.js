@@ -12,10 +12,10 @@ let basket = [];
 
 let newItem = 'bananas'
 
-function addItem(newItem){
-    basket.push(newItem);
+function addItem(){
+    basket.push();
         for(let i = 0; i < basket.length; i++){
-            if (basket[i] = newItem){
+            if (basket[i] = ()){
             return true;
             }
             else{
